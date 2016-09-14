@@ -7,6 +7,9 @@ module.exports = function (cooking, options) {
     test: /\.(jsx?|babel|es6)$/,
     include: process.cwd(),
     exclude: /node_modules|bower_components/,
-    loaders: ['buble-loader']
+    loaders: ['buble-loader'],
+    query: {
+      objectAssign: 'Object.assign'
+    }
   })
 };

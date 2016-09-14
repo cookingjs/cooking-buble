@@ -1,0 +1,26 @@
+{
+  "name": "cooking-buble",
+  "version": "0.0.0",
+  "description": "A cooking plugin.",
+  "keywords": [
+    "cooking"
+  ],
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cookingjs/cooking-buble/cooking-buble.git"
+  },
+  "homepage": "https://github.com/cookingjs/cooking-buble/cooking-buble#readme",
+  "bugs": {
+    "url": "https://github.com/cookingjs/cooking-buble/cooking-buble/issues"
+  },
+  "author": "qingwei-li<cinwell.li@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "buble": "^0.13.2",
+    "buble-loader": "^0.3.0"
+  },
+  "devDependencies": {}
+}

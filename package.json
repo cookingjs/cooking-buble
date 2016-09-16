@@ -22,5 +22,8 @@
     "buble": "^0.13.2",
     "buble-loader": "^0.3.0"
   },
+  "peerDependencies": {
+    "webpack": "^2.0.0-beta"
+  },
   "devDependencies": {}
 }

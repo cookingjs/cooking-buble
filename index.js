@@ -19,6 +19,6 @@ module.exports = function (cooking, options) {
   })
 
   if (!!require('vue-loader')) {
-    cooking.add('vue.loaders.js', 'buble-loader?objectAssign="Object.assign"')
+    cooking.add('vue.loaders.js', 'buble-loader?objectAssign=Object.assign')
   }
 }

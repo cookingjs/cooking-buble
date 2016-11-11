@@ -17,7 +17,7 @@ module.exports = function (cooking, options) {
     test: test,
     include: config.include,
     exclude: config.exclude,
-    loaders: ['buble-loader'],
+    loader: 'buble-loader',
     query: {
       objectAssign: 'Object.assign'
     }
